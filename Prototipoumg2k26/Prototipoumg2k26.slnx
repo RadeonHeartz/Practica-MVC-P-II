@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="CapaControlador_prototipoumg2k26/CapaControlador_prototipoumg2k26.csproj" />
+  <Project Path="CapaModelo_Prototipoumg2k26/CapaModelo_Prototipoumg2k26.csproj" />
+  <Project Path="CapaVista_Prototipoumg2k26/CapaVista_Prototipoumg2k26.csproj" />
+</Solution>
