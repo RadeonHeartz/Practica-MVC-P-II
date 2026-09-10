@@ -1,5 +1,5 @@
 <Solution>
-  <Project Path="CapaControlador_prototipoumg2k26/CapaControlador_prototipoumg2k26.csproj" />
-  <Project Path="CapaModelo_Prototipoumg2k26/CapaModelo_Prototipoumg2k26.csproj" />
-  <Project Path="CapaVista_Prototipoumg2k26/CapaVista_Prototipoumg2k26.csproj" />
+  <Project Path="CapaControlador_prototipoumg2k26/CapaControlador_prototipoumg2k26.csproj" Id="20b0c65e-4f2d-4ad6-8fef-c725e9713c61" />
+  <Project Path="CapaModelo_Prototipoumg2k26/CapaModelo_Prototipoumg2k26.csproj" Id="0f57f197-ec95-4746-8c98-03c34db7ddb4" />
+  <Project Path="CapaVista_Prototipoumg2k26/CapaVista_Prototipoumg2k26.csproj" Id="afa9a875-c1ba-4ebd-89bd-0529181e24d6" />
 </Solution>
