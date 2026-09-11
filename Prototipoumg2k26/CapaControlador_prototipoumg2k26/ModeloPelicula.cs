@@ -30,23 +30,15 @@ namespace CapaControlador_prototipoumg2k26
         public int id_pelicula { get => _id_pelicula; set => _id_pelicula = value; }
 
         [Required(ErrorMessage = "El campo 'Clasificación' es obligatorio.")]
-        [RegularExpression("([0-9]+)", ErrorMessage = "El campo 'Clasificación' debe contener solo números.")]
-        [StringLength(maximumLength: 10, MinimumLength = 10, ErrorMessage = "El campo 'Clasificación' debe tener exactamente 10 caracteres.")]
         public int id_clasificacion { get => _id_clasificacion; set => _id_clasificacion = value; }
 
-        [Required(ErrorMessage = "El campo 'Estado de la película' es obligatorio.")]
-        [RegularExpression("([0-9]+)", ErrorMessage = "El campo 'Estado de la película' debe contener solo números.")]
-        [StringLength(maximumLength: 10, MinimumLength = 10, ErrorMessage = "El campo 'Estado de la película' debe tener exactamente 10 caracteres.")]
+  
         public int id_estado_pelicula { get => _id_estado_pelicula; set => _id_estado_pelicula = value; }
 
         [Required(ErrorMessage = "El campo 'Título de la película' es obligatorio.")]
-        [RegularExpression(@"^[a-zA-Z0-9\s]+$", ErrorMessage = "El campo 'Título de la película' solo puede contener letras, números y espacios.")]
-        [StringLength(maximumLength: 100, MinimumLength = 2, ErrorMessage = "El campo 'Título de la película' debe tener entre 2 y 100 caracteres.")]
         public string titulo_pelicula { get => _titulo_pelicula; set => _titulo_pelicula = value; }
 
         [Required(ErrorMessage = "El campo 'duración' es obligatorio.")]
-        [RegularExpression("([0-9]+)", ErrorMessage = "El campo 'duración' debe contener solo números.")]
-        [StringLength(maximumLength: 10, MinimumLength = 10, ErrorMessage = "El campo 'duración' debe tener exactamente 10 caracteres.")]
         public int duracion_pelicula { get => _duracion_pelicula; set => _duracion_pelicula = value; }
 
         [Required(ErrorMessage = "El campo 'director' es obligatorio.")]
@@ -60,7 +52,6 @@ namespace CapaControlador_prototipoumg2k26
         public string descripcion_pelicula { get => _descripcion_pelicula; set => _descripcion_pelicula = value; }
 
         [Required(ErrorMessage = "El campo 'trailer' es obligatorio.")]
-        [StringLength(maximumLength: 10, MinimumLength = 10, ErrorMessage = "El campo 'trailer' debe tener exactamente 10 caracteres.")]
         public string trailer_pelicula { get => _trailer_pelicula; set => _trailer_pelicula = value; }
         public DateTime fecha_estreno { get => _fecha_estreno; set => _fecha_estreno = value; }
 

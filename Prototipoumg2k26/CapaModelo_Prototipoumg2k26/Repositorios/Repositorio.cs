@@ -12,7 +12,7 @@ namespace CapaModelo_Prototipoumg2k26.Repositorios
         public readonly string connectionString;
         public Repositorio()
         {
-            connectionString = "Dsn = Taquilla_Cine";
+            connectionString = "Dsn=Taquilla_Cine";
         }
         protected OdbcConnection ObtenerConexion()
         {
