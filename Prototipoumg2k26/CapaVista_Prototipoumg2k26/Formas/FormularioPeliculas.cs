@@ -18,6 +18,7 @@ namespace CapaVista_Prototipoumg2k26
         {
             InitializeComponent();
             p_ingresoDatos.Enabled = false;
+            CargarDatos();
         }
 
         private void FrmPeliculas_Load(object sender, EventArgs e)
@@ -145,6 +146,11 @@ namespace CapaVista_Prototipoumg2k26
             {
                 MessageBox.Show("Seleccione una fila para eliminar.");
             }
+        }
+        void CargarDatos()
+        {
+            comboI1.llenarCombo("tbl_pelicula", "id_pelicula", "titulo_pelicula");
+
         }
     }
 }

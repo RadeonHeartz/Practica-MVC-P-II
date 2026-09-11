@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Capa_Controlador_ComboI/Capa_Controlador_ComboI.csproj" Id="3755da5c-fe67-470c-aa7d-2c8d6eea10b3" />
+  <Project Path="Capa_Modelo_ComboI/Capa_Modelo_ComboI.csproj" Id="050c0753-c81c-485d-b7d2-e4f463ab30d1" />
+  <Project Path="Capa_Vista_ComboI/Capa_Vista_ComboI.csproj" Id="7d75ea68-e734-4389-b10e-fb47b7f1a351" />
+</Solution>
