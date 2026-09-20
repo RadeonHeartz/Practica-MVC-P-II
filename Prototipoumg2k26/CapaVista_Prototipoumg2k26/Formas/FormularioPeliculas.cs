@@ -159,5 +159,11 @@ namespace CapaVista_Prototipoumg2k26
             frmReportePelicula reporte = new frmReportePelicula();
             reporte.Show();
         }
+
+        private void btn_ayuda_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, "C:/Users/carlo/source/repos/Parte II MVC/Practica-MVC-P-II/Prototipoumg2k26/Ayudas/AyudaRisko/CapacitacionCinema.chm", "Pelicula.html");
+
+        }
     }
 }
