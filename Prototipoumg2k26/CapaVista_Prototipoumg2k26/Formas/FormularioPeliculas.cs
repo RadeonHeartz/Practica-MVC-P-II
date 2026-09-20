@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaControlador_prototipoumg2k26;
+using CapaVista_Prototipoumg2k26.Reports;
 
 namespace CapaVista_Prototipoumg2k26
 {
@@ -151,6 +152,12 @@ namespace CapaVista_Prototipoumg2k26
         {
             comboI1.llenarCombo("tbl_pelicula", "id_pelicula", "titulo_pelicula");
 
+        }
+
+        private void btn_imprimir_Click(object sender, EventArgs e)
+        {
+            frmReportePelicula reporte = new frmReportePelicula();
+            reporte.Show();
         }
     }
 }
