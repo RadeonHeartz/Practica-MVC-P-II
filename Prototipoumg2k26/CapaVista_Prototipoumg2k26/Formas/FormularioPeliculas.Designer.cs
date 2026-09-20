@@ -271,6 +271,7 @@
             this.btn_imprimir.TabIndex = 5;
             this.btn_imprimir.Text = "imprimir";
             this.btn_imprimir.UseVisualStyleBackColor = false;
+            this.btn_imprimir.Click += new System.EventHandler(this.btn_imprimir_Click);
             // 
             // btn_nuevo
             // 
